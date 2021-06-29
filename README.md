@@ -5,10 +5,13 @@
 # March 26, 2021
 
 
-##**1.	Overview of the analysis:**##
+**1.	Overview of the analysis:**
 •	The purpose of the new analysis is to create visualizations of rideshare data for PyBer to help improve access to ride-sharing services and determine affordability for underserved neighborhoods. 
 •	To do this I will create a summary DataFrame of the ride-sharing data by city type. Specifically, I got the total number of rides, total number of drivers, and the total fares for each city. Next, I will calculate the average fare per ride and average fare per driver for each city type. After that, I will add the data to a new DataFrame, then format the columns. Lastly, I will create a multiple-line graph to show the total fares for each week by city type.
-##**2.	Results:**##
+
+
+
+**2.	Results:**
 o	The Ride-sharing data includes total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type, each are described as follows:
 
 o	Total rides are a Series of data where the index is the type of city, and the column for the Series is the number of the rides for the type of city.
@@ -40,7 +43,7 @@ o	A look at the multiple-line chart created to summarize the results shows, the 
 
 
 
-##**3.	Summary:**##
+**3.	Summary:**
 o	In summary, it is not surprising that rural type cities have the lowest ride-sharing revenue, as most people in rural cities, have a vehicle since public transportation is limited. It also is not surprising that the average cost for rides-sharing is more expensive for Rural cities, than Urban, as the distance per ride is probably farther. Likewise, the disparities are not surprising that Urban type cities have the highest amount of revenue because there are more people traveling without vehicles and more drivers working ride-share. Suburban type cities, however, fall within the middle of the total’s fares by city type, as expected, since Suburban cities have a mix of population with and without vehicles and mass transportation is better than Rural but not as dynamic as Urban. Lastly, to help improve access to ride-sharing services and determine affordability for underserved neighborhoods, it is recommended to lower Rural city rates and increase advertisement for Rural drivers, which increases availability and revenue. It is also recommended to lower the fare cost per ride for Suburban cities, to draw in more riders. Lastly, capitalize from holidays and events across all city types by increasing advertising and driver availability. 
 
 
